@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: blanchedalmond;
+  font-family: sans-serif;
+}
+.counter-container {
+  text-align: center;
+  /* color: peru; */
+  font-size: 20px;
+  font-weight: bolder;
+}
+.counter{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.counter > button{
+  margin:0px 50px;
+  width: 70px;
+  font-size: 25px;
+}
+.counter-number{
+  color: olive;
+  margin: 10px 0px;
+  font-size: 35px;
+}
+.reset-button{
+  margin-top: 20px;
+  width: 100px;
+  font-size: 20px;
+}
+.counter > button,
+.reset-button{
+  border-radius: 50%;
+  height: 60px;
+  cursor: pointer;
+}
