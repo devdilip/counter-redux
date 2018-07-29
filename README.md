@@ -4,8 +4,8 @@ Counter app using react-redux
 # Start this project
   + yarn start
 
-# Build--> 
+# Build
   + yarn build
   
-# Test--> 
+# Test
   + yarn test
